@@ -7,14 +7,115 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C8DFE70974407AB81545391 /* libPods-SevenseasMoney.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D3F7BF84380846EA71520C /* libPods-SevenseasMoney.a */; };
+		3B2735259C13DB63C9175A8A /* libPods-SevenseasMoneyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5A39D91E054F4217BA3DD9 /* libPods-SevenseasMoneyUITests.a */; };
+		630969531E8B7BD5002BD301 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630969521E8B7BD5002BD301 /* DashboardViewController.m */; };
+		630969561E8B81D7002BD301 /* moneybanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630969541E8B81D7002BD301 /* moneybanner.jpg */; };
+		630969571E8B81D7002BD301 /* water_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 630969551E8B81D7002BD301 /* water_img.jpg */; };
+		631C55F31E94F39300742656 /* SendMoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C55F21E94F39300742656 /* SendMoneyViewController.m */; };
+		63207F511E8CD34C007FCD14 /* KIImagePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63207F501E8CD34C007FCD14 /* KIImagePager.m */; };
+		63207F531E8CE667007FCD14 /* postpaid_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63207F521E8CE667007FCD14 /* postpaid_img.jpg */; };
+		63207F581E8CEA99007FCD14 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63207F551E8CEA99007FCD14 /* TPKeyboardAvoidingScrollView.m */; };
+		63207F591E8CEA99007FCD14 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63207F571E8CEA99007FCD14 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		63207F5C1E8CF476007FCD14 /* UIViewController+V2CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63207F5B1E8CF476007FCD14 /* UIViewController+V2CustomViewController.m */; };
+		63207F5F1E8D13B4007FCD14 /* TravelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63207F5E1E8D13B4007FCD14 /* TravelViewController.m */; };
+		63207F621E8D13D4007FCD14 /* WalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63207F611E8D13D4007FCD14 /* WalletViewController.m */; };
+		63207F681E8D218B007FCD14 /* rupees.png in Resources */ = {isa = PBXBuildFile; fileRef = 63207F671E8D218B007FCD14 /* rupees.png */; };
+		63207F6A1E8D2199007FCD14 /* send_acc.png in Resources */ = {isa = PBXBuildFile; fileRef = 63207F691E8D2199007FCD14 /* send_acc.png */; };
+		63207F6C1E8D21AE007FCD14 /* send_bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 63207F6B1E8D21AE007FCD14 /* send_bank.png */; };
+		63207F6E1E8D21C3007FCD14 /* send_bank1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63207F6D1E8D21C3007FCD14 /* send_bank1.png */; };
+		63207F701E8D21CA007FCD14 /* send_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 63207F6F1E8D21CA007FCD14 /* send_user.png */; };
+		632DF22A1E938EF50040726E /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632DF2291E938EF50040726E /* SideMenuViewController.m */; };
+		634D8EBA1E94F5D500ECE3E9 /* MoneyTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634D8EB81E94F5D500ECE3E9 /* MoneyTransferViewController.m */; };
+		634D8ED11E94F7C500ECE3E9 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 634D8ECF1E94F7C500ECE3E9 /* ContactTableViewCell.m */; };
+		634D8ED21E94F7C500ECE3E9 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634D8ED01E94F7C500ECE3E9 /* ContactTableViewCell.xib */; };
+		634D8ED61E94F7D400ECE3E9 /* VPASTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 634D8ED41E94F7D400ECE3E9 /* VPASTableViewCell.m */; };
+		634D8ED71E94F7D400ECE3E9 /* VPASTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634D8ED51E94F7D400ECE3E9 /* VPASTableViewCell.xib */; };
+		634D8EDE1E94F82400ECE3E9 /* BankAccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 634D8EDC1E94F82400ECE3E9 /* BankAccountTableViewCell.m */; };
+		634D8EDF1E94F82400ECE3E9 /* BankAccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634D8EDD1E94F82400ECE3E9 /* BankAccountTableViewCell.xib */; };
+		634D8EE31E950F5F00ECE3E9 /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634D8EE11E950F5F00ECE3E9 /* ContactTableViewController.m */; };
+		634D8EE41E950F5F00ECE3E9 /* ContactTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634D8EE21E950F5F00ECE3E9 /* ContactTableViewController.xib */; };
+		634D8EE81E950F7200ECE3E9 /* VPASTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634D8EE61E950F7200ECE3E9 /* VPASTableViewController.m */; };
+		634D8EE91E950F7200ECE3E9 /* VPASTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634D8EE71E950F7200ECE3E9 /* VPASTableViewController.xib */; };
+		634D8EED1E950F8700ECE3E9 /* BankAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634D8EEB1E950F8700ECE3E9 /* BankAccountTableViewController.m */; };
+		634D8EEE1E950F8700ECE3E9 /* BankAccountTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634D8EEC1E950F8700ECE3E9 /* BankAccountTableViewController.xib */; };
+		634D8EF11E95195F00ECE3E9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634D8EF01E95195F00ECE3E9 /* DetailViewController.m */; };
+		6368979E1E94C94C00B9238F /* SendMoneyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6368979D1E94C94C00B9238F /* SendMoneyCollectionViewCell.m */; };
+		63BC5F0E1E8F677100568AD9 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC5F0B1E8F677100568AD9 /* NSString+Validation.m */; };
+		63BC5F0F1E8F677100568AD9 /* V2ValidationNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC5F0D1E8F677100568AD9 /* V2ValidationNotifier.m */; };
+		63BC5F121E8F691900568AD9 /* UIFont+V2Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC5F111E8F691900568AD9 /* UIFont+V2Font.m */; };
+		63BC5F161E8F909A00568AD9 /* BillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC5F151E8F909A00568AD9 /* BillViewController.m */; };
+		63BC5F181E8F92FE00568AD9 /* dthimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63BC5F171E8F92FE00568AD9 /* dthimg.jpg */; };
+		63BC5F1A1E8F93EC00568AD9 /* dth1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC5F191E8F93EC00568AD9 /* dth1.png */; };
+		63BC5F1E1E8FBFCB00568AD9 /* Lato in Resources */ = {isa = PBXBuildFile; fileRef = 63BC5F1C1E8FBFCB00568AD9 /* Lato */; };
+		63BC5F1F1E8FBFCB00568AD9 /* OpenSans in Resources */ = {isa = PBXBuildFile; fileRef = 63BC5F1D1E8FBFCB00568AD9 /* OpenSans */; };
+		63BC5F211E8FC4A500568AD9 /* gas01.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC5F201E8FC4A500568AD9 /* gas01.png */; };
+		63BC5F231E8FC4B100568AD9 /* gas_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63BC5F221E8FC4B000568AD9 /* gas_img.jpg */; };
+		63BC5F251E8FC71500568AD9 /* insur.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC5F241E8FC71500568AD9 /* insur.png */; };
+		63BC5F271E8FC75000568AD9 /* insurance_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63BC5F261E8FC75000568AD9 /* insurance_img.jpg */; };
+		63BC5F291E8FC7F700568AD9 /* ins3.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC5F281E8FC7F700568AD9 /* ins3.png */; };
+		63D4F5FE1E8E2D1D00889B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D4F5FD1E8E2D1D00889B6A /* Main.storyboard */; };
+		63D4F6011E8E429300889B6A /* Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4F6001E8E429300889B6A /* Swift.swift */; };
+		63D4F6061E8E5A2E00889B6A /* InstagramActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4F6051E8E5A2E00889B6A /* InstagramActivityIndicator.swift */; };
+		63D4F6091E8E60AB00889B6A /* DTHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D4F6081E8E60AB00889B6A /* DTHViewController.m */; };
+		63D4F60C1E8E633100889B6A /* OfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D4F60B1E8E633100889B6A /* OfferViewController.m */; };
+		63D4F60F1E8E633F00889B6A /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D4F60E1E8E633F00889B6A /* HelpViewController.m */; };
+		63D4F6131E8E6C4B00889B6A /* ElectricityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D4F6121E8E6C4B00889B6A /* ElectricityViewController.m */; };
+		63D4F6161E8E6C5900889B6A /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D4F6151E8E6C5900889B6A /* DataViewController.m */; };
+		63D4F6191E8E6C7000889B6A /* LandlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D4F6181E8E6C7000889B6A /* LandlineViewController.m */; };
+		63D4F61C1E8E6C8900889B6A /* GasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D4F61B1E8E6C8900889B6A /* GasViewController.m */; };
+		63D4F61F1E8E6C9700889B6A /* InsurenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D4F61E1E8E6C9700889B6A /* InsurenceViewController.m */; };
+		63D4F6221E8E6CA700889B6A /* WaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D4F6211E8E6CA700889B6A /* WaterViewController.m */; };
+		63D4F6241E8E726D00889B6A /* landline_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D4F6231E8E726D00889B6A /* landline_img.jpg */; };
+		63D4F6261E8E727E00889B6A /* land_tel.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D4F6251E8E727E00889B6A /* land_tel.png */; };
+		63D4F6281E8E72F500889B6A /* land_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D4F6271E8E72F500889B6A /* land_user.png */; };
+		63D4F62A1E8E7A6300889B6A /* datacard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D4F6291E8E7A6300889B6A /* datacard.jpg */; };
+		63D4F62C1E8E7A8A00889B6A /* dada1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D4F62B1E8E7A8A00889B6A /* dada1.png */; };
+		63D4F62E1E8E7AA300889B6A /* operator.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D4F62D1E8E7AA300889B6A /* operator.png */; };
+		63D4F6301E8E815400889B6A /* electricity_img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D4F62F1E8E815400889B6A /* electricity_img1.jpg */; };
+		63D4F6321E8E816400889B6A /* electricity01.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D4F6311E8E816400889B6A /* electricity01.png */; };
+		63D4F6341E8E817800889B6A /* dth01.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D4F6331E8E817800889B6A /* dth01.png */; };
+		63D4F6371E8E8AF300889B6A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D4F6351E8E8AF300889B6A /* AddressBook.framework */; };
+		63D4F6381E8E8AF300889B6A /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D4F6361E8E8AF300889B6A /* AddressBookUI.framework */; };
+		63DF21FD1E8BA0F8008B1E2A /* recharge_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF21FC1E8BA0F8008B1E2A /* recharge_icon.png */; };
+		63DF21FF1E8BA116008B1E2A /* send_money_iocn.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF21FE1E8BA116008B1E2A /* send_money_iocn.png */; };
+		63DF22011E8BA147008B1E2A /* travel_iocn.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF22001E8BA147008B1E2A /* travel_iocn.png */; };
+		63DF22031E8BA157008B1E2A /* wallet_iocn.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF22021E8BA157008B1E2A /* wallet_iocn.png */; };
+		63DF22051E8BA185008B1E2A /* ask_iocn.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF22041E8BA185008B1E2A /* ask_iocn.png */; };
+		63DF220F1E8BE25F008B1E2A /* RechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DF220E1E8BE25F008B1E2A /* RechargeViewController.m */; };
+		63DF22111E8BE4A0008B1E2A /* postpaidimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DF22101E8BE4A0008B1E2A /* postpaidimg.jpg */; };
+		63DF22131E8BE5E7008B1E2A /* phone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF22121E8BE5E7008B1E2A /* phone_icon.png */; };
+		63DF22151E8BE5FB008B1E2A /* cont.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF22141E8BE5FB008B1E2A /* cont.png */; };
+		63DF22171E8BE611008B1E2A /* dth_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF22161E8BE611008B1E2A /* dth_new.png */; };
+		63DF22191E8BE625008B1E2A /* electrcty.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF22181E8BE625008B1E2A /* electrcty.png */; };
+		63DF221B1E8BE63E008B1E2A /* data.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF221A1E8BE63E008B1E2A /* data.png */; };
+		63DF221D1E8BE656008B1E2A /* gas.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF221C1E8BE656008B1E2A /* gas.png */; };
+		63DF221F1E8BE678008B1E2A /* tell.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF221E1E8BE678008B1E2A /* tell.png */; };
+		63DF22211E8BE68D008B1E2A /* insurance.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF22201E8BE68D008B1E2A /* insurance.png */; };
+		63DF22231E8BE698008B1E2A /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DF22221E8BE698008B1E2A /* water.png */; };
 		63F96C621E8A556200C85861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F96C611E8A556200C85861 /* main.m */; };
 		63F96C651E8A556200C85861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F96C641E8A556200C85861 /* AppDelegate.m */; };
-		63F96C681E8A556200C85861 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F96C671E8A556200C85861 /* ViewController.m */; };
-		63F96C6B1E8A556200C85861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F96C691E8A556200C85861 /* Main.storyboard */; };
 		63F96C6D1E8A556200C85861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F96C6C1E8A556200C85861 /* Assets.xcassets */; };
 		63F96C701E8A556200C85861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F96C6E1E8A556200C85861 /* LaunchScreen.storyboard */; };
 		63F96C7B1E8A556200C85861 /* SevenseasMoneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F96C7A1E8A556200C85861 /* SevenseasMoneyTests.m */; };
 		63F96C861E8A556200C85861 /* SevenseasMoneyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F96C851E8A556200C85861 /* SevenseasMoneyUITests.m */; };
+		63F96C951E8A70FE00C85861 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F96C941E8A70FE00C85861 /* RegisterViewController.m */; };
+		63F96C981E8A711F00C85861 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F96C971E8A711F00C85861 /* LoginViewController.m */; };
+		63F96C9A1E8A824600C85861 /* offer_iocn.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F96C991E8A824600C85861 /* offer_iocn.png */; };
+		63F96C9E1E8A8D0100C85861 /* UIColor+TKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F96C9D1E8A8D0100C85861 /* UIColor+TKColor.m */; };
+		63F96CA11E8A8D1700C85861 /* TKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F96CA01E8A8D1700C85861 /* TKTextField.m */; };
+		63F96CA71E8A993100C85861 /* UIFont+TKFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F96CA61E8A993100C85861 /* UIFont+TKFont.m */; };
+		63F9DB951E93A19400D53F1F /* SideMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9DB941E93A19400D53F1F /* SideMenuTableViewCell.m */; };
+		63F9DB9C1E93A4F500D53F1F /* aboutus.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F9DB961E93A4F500D53F1F /* aboutus.png */; };
+		63F9DB9D1E93A4F500D53F1F /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F9DB971E93A4F500D53F1F /* add.png */; };
+		63F9DB9E1E93A4F500D53F1F /* contactus.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F9DB981E93A4F500D53F1F /* contactus.png */; };
+		63F9DB9F1E93A4F500D53F1F /* myaccount.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F9DB991E93A4F500D53F1F /* myaccount.png */; };
+		63F9DBA01E93A4F500D53F1F /* payment.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F9DB9A1E93A4F500D53F1F /* payment.png */; };
+		63F9DBA11E93A4F500D53F1F /* wallet.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F9DB9B1E93A4F500D53F1F /* wallet.png */; };
+		63F9DBA41E93CDFB00D53F1F /* V2ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F9DBA31E93CDFB00D53F1F /* V2ImageView.m */; };
+		63F9DBA81E93D26500D53F1F /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F9DBA71E93D26500D53F1F /* LocalAuthentication.framework */; };
+		63FC94C81E9254B100AE7789 /* WalletTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FC94C71E9254B100AE7789 /* WalletTableViewCell.m */; };
+		6A20013BE5B027C68E0E782F /* libPods-SevenseasMoneyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 742C3E7035638A086B86C501 /* libPods-SevenseasMoneyTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +136,131 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D4C1D18A2797D5225B96735 /* Pods-SevenseasMoneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenseasMoneyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SevenseasMoneyTests/Pods-SevenseasMoneyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		329570253ACE4F0B3DA766AC /* Pods-SevenseasMoneyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenseasMoneyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SevenseasMoneyTests/Pods-SevenseasMoneyTests.release.xcconfig"; sourceTree = "<group>"; };
+		40B29393A58568DAA56538B9 /* Pods-SevenseasMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenseasMoney.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SevenseasMoney/Pods-SevenseasMoney.debug.xcconfig"; sourceTree = "<group>"; };
+		60090205BAF44E22A69B0DD0 /* Pods-SevenseasMoneyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenseasMoneyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SevenseasMoneyUITests/Pods-SevenseasMoneyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		630969511E8B7BD5002BD301 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		630969521E8B7BD5002BD301 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		630969541E8B81D7002BD301 /* moneybanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moneybanner.jpg; sourceTree = "<group>"; };
+		630969551E8B81D7002BD301 /* water_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water_img.jpg; sourceTree = "<group>"; };
+		631C55F11E94F39300742656 /* SendMoneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMoneyViewController.h; sourceTree = "<group>"; };
+		631C55F21E94F39300742656 /* SendMoneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMoneyViewController.m; sourceTree = "<group>"; };
+		63207F4F1E8CD34C007FCD14 /* KIImagePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIImagePager.h; sourceTree = "<group>"; };
+		63207F501E8CD34C007FCD14 /* KIImagePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIImagePager.m; sourceTree = "<group>"; };
+		63207F521E8CE667007FCD14 /* postpaid_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postpaid_img.jpg; sourceTree = "<group>"; };
+		63207F541E8CEA99007FCD14 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		63207F551E8CEA99007FCD14 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		63207F561E8CEA99007FCD14 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		63207F571E8CEA99007FCD14 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		63207F5A1E8CF476007FCD14 /* UIViewController+V2CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+V2CustomViewController.h"; sourceTree = "<group>"; };
+		63207F5B1E8CF476007FCD14 /* UIViewController+V2CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+V2CustomViewController.m"; sourceTree = "<group>"; };
+		63207F5D1E8D13B4007FCD14 /* TravelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelViewController.h; sourceTree = "<group>"; };
+		63207F5E1E8D13B4007FCD14 /* TravelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelViewController.m; sourceTree = "<group>"; };
+		63207F601E8D13D4007FCD14 /* WalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletViewController.h; sourceTree = "<group>"; };
+		63207F611E8D13D4007FCD14 /* WalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletViewController.m; sourceTree = "<group>"; };
+		63207F671E8D218B007FCD14 /* rupees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rupees.png; sourceTree = "<group>"; };
+		63207F691E8D2199007FCD14 /* send_acc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_acc.png; sourceTree = "<group>"; };
+		63207F6B1E8D21AE007FCD14 /* send_bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_bank.png; sourceTree = "<group>"; };
+		63207F6D1E8D21C3007FCD14 /* send_bank1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_bank1.png; sourceTree = "<group>"; };
+		63207F6F1E8D21CA007FCD14 /* send_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_user.png; sourceTree = "<group>"; };
+		632DF2281E938EF50040726E /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		632DF2291E938EF50040726E /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		634D8EB71E94F5D500ECE3E9 /* MoneyTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyTransferViewController.h; sourceTree = "<group>"; };
+		634D8EB81E94F5D500ECE3E9 /* MoneyTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyTransferViewController.m; sourceTree = "<group>"; };
+		634D8ECE1E94F7C500ECE3E9 /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		634D8ECF1E94F7C500ECE3E9 /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		634D8ED01E94F7C500ECE3E9 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		634D8ED31E94F7D400ECE3E9 /* VPASTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPASTableViewCell.h; sourceTree = "<group>"; };
+		634D8ED41E94F7D400ECE3E9 /* VPASTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPASTableViewCell.m; sourceTree = "<group>"; };
+		634D8ED51E94F7D400ECE3E9 /* VPASTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VPASTableViewCell.xib; sourceTree = "<group>"; };
+		634D8EDB1E94F82400ECE3E9 /* BankAccountTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccountTableViewCell.h; sourceTree = "<group>"; };
+		634D8EDC1E94F82400ECE3E9 /* BankAccountTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccountTableViewCell.m; sourceTree = "<group>"; };
+		634D8EDD1E94F82400ECE3E9 /* BankAccountTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankAccountTableViewCell.xib; sourceTree = "<group>"; };
+		634D8EE01E950F5F00ECE3E9 /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewController.h; sourceTree = "<group>"; };
+		634D8EE11E950F5F00ECE3E9 /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewController.m; sourceTree = "<group>"; };
+		634D8EE21E950F5F00ECE3E9 /* ContactTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewController.xib; sourceTree = "<group>"; };
+		634D8EE51E950F7200ECE3E9 /* VPASTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPASTableViewController.h; sourceTree = "<group>"; };
+		634D8EE61E950F7200ECE3E9 /* VPASTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPASTableViewController.m; sourceTree = "<group>"; };
+		634D8EE71E950F7200ECE3E9 /* VPASTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VPASTableViewController.xib; sourceTree = "<group>"; };
+		634D8EEA1E950F8700ECE3E9 /* BankAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccountTableViewController.h; sourceTree = "<group>"; };
+		634D8EEB1E950F8700ECE3E9 /* BankAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccountTableViewController.m; sourceTree = "<group>"; };
+		634D8EEC1E950F8700ECE3E9 /* BankAccountTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankAccountTableViewController.xib; sourceTree = "<group>"; };
+		634D8EEF1E95195F00ECE3E9 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		634D8EF01E95195F00ECE3E9 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6368979C1E94C94C00B9238F /* SendMoneyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMoneyCollectionViewCell.h; sourceTree = "<group>"; };
+		6368979D1E94C94C00B9238F /* SendMoneyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMoneyCollectionViewCell.m; sourceTree = "<group>"; };
+		63BC5F0A1E8F677100568AD9 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Validation.h"; path = "../../Project/Internal-Components-iOS/V2CompomentsInternal/V2CompomentsInternal/Common Files/NSString+Validation.h"; sourceTree = "<group>"; };
+		63BC5F0B1E8F677100568AD9 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Validation.m"; path = "../../Project/Internal-Components-iOS/V2CompomentsInternal/V2CompomentsInternal/Common Files/NSString+Validation.m"; sourceTree = "<group>"; };
+		63BC5F0C1E8F677100568AD9 /* V2ValidationNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = V2ValidationNotifier.h; path = "../../Project/Internal-Components-iOS/V2CompomentsInternal/V2CompomentsInternal/Common Files/V2ValidationNotifier.h"; sourceTree = "<group>"; };
+		63BC5F0D1E8F677100568AD9 /* V2ValidationNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = V2ValidationNotifier.m; path = "../../Project/Internal-Components-iOS/V2CompomentsInternal/V2CompomentsInternal/Common Files/V2ValidationNotifier.m"; sourceTree = "<group>"; };
+		63BC5F101E8F691900568AD9 /* UIFont+V2Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+V2Font.h"; path = "../../Project/Internal-Components-iOS/V2CompomentsInternal/V2CompomentsInternal/Categories/UIFont+V2Font.h"; sourceTree = "<group>"; };
+		63BC5F111E8F691900568AD9 /* UIFont+V2Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+V2Font.m"; path = "../../Project/Internal-Components-iOS/V2CompomentsInternal/V2CompomentsInternal/Categories/UIFont+V2Font.m"; sourceTree = "<group>"; };
+		63BC5F141E8F909A00568AD9 /* BillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillViewController.h; sourceTree = "<group>"; };
+		63BC5F151E8F909A00568AD9 /* BillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillViewController.m; sourceTree = "<group>"; };
+		63BC5F171E8F92FE00568AD9 /* dthimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dthimg.jpg; sourceTree = "<group>"; };
+		63BC5F191E8F93EC00568AD9 /* dth1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dth1.png; sourceTree = "<group>"; };
+		63BC5F1C1E8FBFCB00568AD9 /* Lato */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Lato; sourceTree = "<group>"; };
+		63BC5F1D1E8FBFCB00568AD9 /* OpenSans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OpenSans; sourceTree = "<group>"; };
+		63BC5F201E8FC4A500568AD9 /* gas01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gas01.png; sourceTree = "<group>"; };
+		63BC5F221E8FC4B000568AD9 /* gas_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gas_img.jpg; sourceTree = "<group>"; };
+		63BC5F241E8FC71500568AD9 /* insur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insur.png; sourceTree = "<group>"; };
+		63BC5F261E8FC75000568AD9 /* insurance_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = insurance_img.jpg; sourceTree = "<group>"; };
+		63BC5F281E8FC7F700568AD9 /* ins3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ins3.png; sourceTree = "<group>"; };
+		63D4F5FD1E8E2D1D00889B6A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		63D4F5FF1E8E429200889B6A /* SevenseasMoney-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SevenseasMoney-Bridging-Header.h"; sourceTree = "<group>"; };
+		63D4F6001E8E429300889B6A /* Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.swift; sourceTree = "<group>"; };
+		63D4F6051E8E5A2E00889B6A /* InstagramActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramActivityIndicator.swift; sourceTree = "<group>"; };
+		63D4F6071E8E60AB00889B6A /* DTHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTHViewController.h; sourceTree = "<group>"; };
+		63D4F6081E8E60AB00889B6A /* DTHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTHViewController.m; sourceTree = "<group>"; };
+		63D4F60A1E8E633100889B6A /* OfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferViewController.h; sourceTree = "<group>"; };
+		63D4F60B1E8E633100889B6A /* OfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferViewController.m; sourceTree = "<group>"; };
+		63D4F60D1E8E633F00889B6A /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		63D4F60E1E8E633F00889B6A /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		63D4F6111E8E6C4B00889B6A /* ElectricityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElectricityViewController.h; sourceTree = "<group>"; };
+		63D4F6121E8E6C4B00889B6A /* ElectricityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectricityViewController.m; sourceTree = "<group>"; };
+		63D4F6141E8E6C5900889B6A /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		63D4F6151E8E6C5900889B6A /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		63D4F6171E8E6C7000889B6A /* LandlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandlineViewController.h; sourceTree = "<group>"; };
+		63D4F6181E8E6C7000889B6A /* LandlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandlineViewController.m; sourceTree = "<group>"; };
+		63D4F61A1E8E6C8900889B6A /* GasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasViewController.h; sourceTree = "<group>"; };
+		63D4F61B1E8E6C8900889B6A /* GasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasViewController.m; sourceTree = "<group>"; };
+		63D4F61D1E8E6C9700889B6A /* InsurenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsurenceViewController.h; sourceTree = "<group>"; };
+		63D4F61E1E8E6C9700889B6A /* InsurenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsurenceViewController.m; sourceTree = "<group>"; };
+		63D4F6201E8E6CA700889B6A /* WaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterViewController.h; sourceTree = "<group>"; };
+		63D4F6211E8E6CA700889B6A /* WaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterViewController.m; sourceTree = "<group>"; };
+		63D4F6231E8E726D00889B6A /* landline_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landline_img.jpg; sourceTree = "<group>"; };
+		63D4F6251E8E727E00889B6A /* land_tel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = land_tel.png; sourceTree = "<group>"; };
+		63D4F6271E8E72F500889B6A /* land_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = land_user.png; sourceTree = "<group>"; };
+		63D4F6291E8E7A6300889B6A /* datacard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = datacard.jpg; sourceTree = "<group>"; };
+		63D4F62B1E8E7A8A00889B6A /* dada1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dada1.png; sourceTree = "<group>"; };
+		63D4F62D1E8E7AA300889B6A /* operator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = operator.png; sourceTree = "<group>"; };
+		63D4F62F1E8E815400889B6A /* electricity_img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = electricity_img1.jpg; sourceTree = "<group>"; };
+		63D4F6311E8E816400889B6A /* electricity01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = electricity01.png; sourceTree = "<group>"; };
+		63D4F6331E8E817800889B6A /* dth01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dth01.png; sourceTree = "<group>"; };
+		63D4F6351E8E8AF300889B6A /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		63D4F6361E8E8AF300889B6A /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		63DF21FC1E8BA0F8008B1E2A /* recharge_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recharge_icon.png; sourceTree = "<group>"; };
+		63DF21FE1E8BA116008B1E2A /* send_money_iocn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_money_iocn.png; sourceTree = "<group>"; };
+		63DF22001E8BA147008B1E2A /* travel_iocn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travel_iocn.png; sourceTree = "<group>"; };
+		63DF22021E8BA157008B1E2A /* wallet_iocn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet_iocn.png; sourceTree = "<group>"; };
+		63DF22041E8BA185008B1E2A /* ask_iocn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ask_iocn.png; sourceTree = "<group>"; };
+		63DF220D1E8BE25F008B1E2A /* RechargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechargeViewController.h; sourceTree = "<group>"; };
+		63DF220E1E8BE25F008B1E2A /* RechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechargeViewController.m; sourceTree = "<group>"; };
+		63DF22101E8BE4A0008B1E2A /* postpaidimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = postpaidimg.jpg; sourceTree = "<group>"; };
+		63DF22121E8BE5E7008B1E2A /* phone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone_icon.png; sourceTree = "<group>"; };
+		63DF22141E8BE5FB008B1E2A /* cont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cont.png; sourceTree = "<group>"; };
+		63DF22161E8BE611008B1E2A /* dth_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dth_new.png; sourceTree = "<group>"; };
+		63DF22181E8BE625008B1E2A /* electrcty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = electrcty.png; sourceTree = "<group>"; };
+		63DF221A1E8BE63E008B1E2A /* data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = data.png; sourceTree = "<group>"; };
+		63DF221C1E8BE656008B1E2A /* gas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gas.png; sourceTree = "<group>"; };
+		63DF221E1E8BE678008B1E2A /* tell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tell.png; sourceTree = "<group>"; };
+		63DF22201E8BE68D008B1E2A /* insurance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insurance.png; sourceTree = "<group>"; };
+		63DF22221E8BE698008B1E2A /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
 		63F96C5D1E8A556200C85861 /* SevenseasMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenseasMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F96C611E8A556200C85861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63F96C631E8A556200C85861 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63F96C641E8A556200C85861 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		63F96C661E8A556200C85861 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63F96C671E8A556200C85861 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		63F96C6A1E8A556200C85861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63F96C6C1E8A556200C85861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63F96C6F1E8A556200C85861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63F96C711E8A556200C85861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +270,36 @@
 		63F96C811E8A556200C85861 /* SevenseasMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenseasMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F96C851E8A556200C85861 /* SevenseasMoneyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SevenseasMoneyUITests.m; sourceTree = "<group>"; };
 		63F96C871E8A556200C85861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F96C931E8A70FE00C85861 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		63F96C941E8A70FE00C85861 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		63F96C961E8A711F00C85861 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		63F96C971E8A711F00C85861 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		63F96C991E8A824600C85861 /* offer_iocn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offer_iocn.png; sourceTree = "<group>"; };
+		63F96C9C1E8A8D0100C85861 /* UIColor+TKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TKColor.h"; sourceTree = "<group>"; };
+		63F96C9D1E8A8D0100C85861 /* UIColor+TKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TKColor.m"; sourceTree = "<group>"; };
+		63F96C9F1E8A8D1700C85861 /* TKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTextField.h; sourceTree = "<group>"; };
+		63F96CA01E8A8D1700C85861 /* TKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTextField.m; sourceTree = "<group>"; };
+		63F96CA51E8A993100C85861 /* UIFont+TKFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+TKFont.h"; sourceTree = "<group>"; };
+		63F96CA61E8A993100C85861 /* UIFont+TKFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+TKFont.m"; sourceTree = "<group>"; };
+		63F9DB931E93A19400D53F1F /* SideMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuTableViewCell.h; sourceTree = "<group>"; };
+		63F9DB941E93A19400D53F1F /* SideMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuTableViewCell.m; sourceTree = "<group>"; };
+		63F9DB961E93A4F500D53F1F /* aboutus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutus.png; sourceTree = "<group>"; };
+		63F9DB971E93A4F500D53F1F /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		63F9DB981E93A4F500D53F1F /* contactus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contactus.png; sourceTree = "<group>"; };
+		63F9DB991E93A4F500D53F1F /* myaccount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myaccount.png; sourceTree = "<group>"; };
+		63F9DB9A1E93A4F500D53F1F /* payment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payment.png; sourceTree = "<group>"; };
+		63F9DB9B1E93A4F500D53F1F /* wallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallet.png; sourceTree = "<group>"; };
+		63F9DBA21E93CDFB00D53F1F /* V2ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2ImageView.h; sourceTree = "<group>"; };
+		63F9DBA31E93CDFB00D53F1F /* V2ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2ImageView.m; sourceTree = "<group>"; };
+		63F9DBA71E93D26500D53F1F /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		63FC94C51E921A1A00AE7789 /* RPFloatingPlaceholderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPFloatingPlaceholderConstants.h; sourceTree = "<group>"; };
+		63FC94C61E9254B100AE7789 /* WalletTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletTableViewCell.h; sourceTree = "<group>"; };
+		63FC94C71E9254B100AE7789 /* WalletTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletTableViewCell.m; sourceTree = "<group>"; };
+		67D3F7BF84380846EA71520C /* libPods-SevenseasMoney.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SevenseasMoney.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		742C3E7035638A086B86C501 /* libPods-SevenseasMoneyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SevenseasMoneyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750640A82567AE9CF0B7807B /* Pods-SevenseasMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenseasMoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-SevenseasMoney/Pods-SevenseasMoney.release.xcconfig"; sourceTree = "<group>"; };
+		9B5A39D91E054F4217BA3DD9 /* libPods-SevenseasMoneyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SevenseasMoneyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62CF4DF5C18C799BAD80DBA /* Pods-SevenseasMoneyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenseasMoneyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SevenseasMoneyUITests/Pods-SevenseasMoneyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +307,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F9DBA81E93D26500D53F1F /* LocalAuthentication.framework in Frameworks */,
+				63D4F6371E8E8AF300889B6A /* AddressBook.framework in Frameworks */,
+				63D4F6381E8E8AF300889B6A /* AddressBookUI.framework in Frameworks */,
+				2C8DFE70974407AB81545391 /* libPods-SevenseasMoney.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +318,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A20013BE5B027C68E0E782F /* libPods-SevenseasMoneyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +326,176 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2735259C13DB63C9175A8A /* libPods-SevenseasMoneyUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41FFD2906BB997A75F75A4FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F9DBA71E93D26500D53F1F /* LocalAuthentication.framework */,
+				63D4F6351E8E8AF300889B6A /* AddressBook.framework */,
+				63D4F6361E8E8AF300889B6A /* AddressBookUI.framework */,
+				67D3F7BF84380846EA71520C /* libPods-SevenseasMoney.a */,
+				742C3E7035638A086B86C501 /* libPods-SevenseasMoneyTests.a */,
+				9B5A39D91E054F4217BA3DD9 /* libPods-SevenseasMoneyUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		631C55EB1E94F09800742656 /* SendMoney */ = {
+			isa = PBXGroup;
+			children = (
+				634D8EE01E950F5F00ECE3E9 /* ContactTableViewController.h */,
+				634D8EE11E950F5F00ECE3E9 /* ContactTableViewController.m */,
+				634D8EE21E950F5F00ECE3E9 /* ContactTableViewController.xib */,
+				634D8EE51E950F7200ECE3E9 /* VPASTableViewController.h */,
+				634D8EE61E950F7200ECE3E9 /* VPASTableViewController.m */,
+				634D8EE71E950F7200ECE3E9 /* VPASTableViewController.xib */,
+				634D8EEA1E950F8700ECE3E9 /* BankAccountTableViewController.h */,
+				634D8EEB1E950F8700ECE3E9 /* BankAccountTableViewController.m */,
+				634D8EEC1E950F8700ECE3E9 /* BankAccountTableViewController.xib */,
+				634D8EEF1E95195F00ECE3E9 /* DetailViewController.h */,
+				634D8EF01E95195F00ECE3E9 /* DetailViewController.m */,
+			);
+			name = SendMoney;
+			sourceTree = "<group>";
+		};
+		63207F4E1E8CD2F9007FCD14 /* Common  */ = {
+			isa = PBXGroup;
+			children = (
+				63FC94C51E921A1A00AE7789 /* RPFloatingPlaceholderConstants.h */,
+				63207F4F1E8CD34C007FCD14 /* KIImagePager.h */,
+				63207F501E8CD34C007FCD14 /* KIImagePager.m */,
+			);
+			name = "Common ";
+			sourceTree = "<group>";
+		};
+		63207F661E8D18E4007FCD14 /* CellGroup */ = {
+			isa = PBXGroup;
+			children = (
+				63FC94C61E9254B100AE7789 /* WalletTableViewCell.h */,
+				63FC94C71E9254B100AE7789 /* WalletTableViewCell.m */,
+				63F9DB931E93A19400D53F1F /* SideMenuTableViewCell.h */,
+				63F9DB941E93A19400D53F1F /* SideMenuTableViewCell.m */,
+				6368979C1E94C94C00B9238F /* SendMoneyCollectionViewCell.h */,
+				6368979D1E94C94C00B9238F /* SendMoneyCollectionViewCell.m */,
+				634D8ECE1E94F7C500ECE3E9 /* ContactTableViewCell.h */,
+				634D8ECF1E94F7C500ECE3E9 /* ContactTableViewCell.m */,
+				634D8ED01E94F7C500ECE3E9 /* ContactTableViewCell.xib */,
+				634D8ED31E94F7D400ECE3E9 /* VPASTableViewCell.h */,
+				634D8ED41E94F7D400ECE3E9 /* VPASTableViewCell.m */,
+				634D8ED51E94F7D400ECE3E9 /* VPASTableViewCell.xib */,
+				634D8EDB1E94F82400ECE3E9 /* BankAccountTableViewCell.h */,
+				634D8EDC1E94F82400ECE3E9 /* BankAccountTableViewCell.m */,
+				634D8EDD1E94F82400ECE3E9 /* BankAccountTableViewCell.xib */,
+			);
+			name = CellGroup;
+			sourceTree = "<group>";
+		};
+		63BC5F131E8F8FDC00568AD9 /* ViewBillController */ = {
+			isa = PBXGroup;
+			children = (
+				63BC5F141E8F909A00568AD9 /* BillViewController.h */,
+				63BC5F151E8F909A00568AD9 /* BillViewController.m */,
+			);
+			name = ViewBillController;
+			sourceTree = "<group>";
+		};
+		63BC5F1B1E8FBF9900568AD9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				63BC5F1C1E8FBFCB00568AD9 /* Lato */,
+				63BC5F1D1E8FBFCB00568AD9 /* OpenSans */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		63D4F6021E8E43B900889B6A /* SwiftFile */ = {
+			isa = PBXGroup;
+			children = (
+				63D4F6051E8E5A2E00889B6A /* InstagramActivityIndicator.swift */,
+			);
+			name = SwiftFile;
+			sourceTree = "<group>";
+		};
+		63D4F6101E8E6BD800889B6A /* RechargeController */ = {
+			isa = PBXGroup;
+			children = (
+				63D4F6071E8E60AB00889B6A /* DTHViewController.h */,
+				63D4F6081E8E60AB00889B6A /* DTHViewController.m */,
+				63D4F6111E8E6C4B00889B6A /* ElectricityViewController.h */,
+				63D4F6121E8E6C4B00889B6A /* ElectricityViewController.m */,
+				63D4F6141E8E6C5900889B6A /* DataViewController.h */,
+				63D4F6151E8E6C5900889B6A /* DataViewController.m */,
+				63D4F6171E8E6C7000889B6A /* LandlineViewController.h */,
+				63D4F6181E8E6C7000889B6A /* LandlineViewController.m */,
+				63D4F61A1E8E6C8900889B6A /* GasViewController.h */,
+				63D4F61B1E8E6C8900889B6A /* GasViewController.m */,
+				63D4F61D1E8E6C9700889B6A /* InsurenceViewController.h */,
+				63D4F61E1E8E6C9700889B6A /* InsurenceViewController.m */,
+				63D4F6201E8E6CA700889B6A /* WaterViewController.h */,
+				63D4F6211E8E6CA700889B6A /* WaterViewController.m */,
+			);
+			name = RechargeController;
+			sourceTree = "<group>";
+		};
+		63DF220C1E8BD26A008B1E2A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				63F9DB961E93A4F500D53F1F /* aboutus.png */,
+				63F9DB971E93A4F500D53F1F /* add.png */,
+				63F9DB981E93A4F500D53F1F /* contactus.png */,
+				63F9DB991E93A4F500D53F1F /* myaccount.png */,
+				63F9DB9A1E93A4F500D53F1F /* payment.png */,
+				63F9DB9B1E93A4F500D53F1F /* wallet.png */,
+				63BC5F201E8FC4A500568AD9 /* gas01.png */,
+				63DF22141E8BE5FB008B1E2A /* cont.png */,
+				63DF22121E8BE5E7008B1E2A /* phone_icon.png */,
+				63F96C991E8A824600C85861 /* offer_iocn.png */,
+				630969541E8B81D7002BD301 /* moneybanner.jpg */,
+				630969551E8B81D7002BD301 /* water_img.jpg */,
+				63DF21FC1E8BA0F8008B1E2A /* recharge_icon.png */,
+				63DF21FE1E8BA116008B1E2A /* send_money_iocn.png */,
+				63DF22001E8BA147008B1E2A /* travel_iocn.png */,
+				63DF22041E8BA185008B1E2A /* ask_iocn.png */,
+				63DF22021E8BA157008B1E2A /* wallet_iocn.png */,
+				63DF22101E8BE4A0008B1E2A /* postpaidimg.jpg */,
+				63DF22161E8BE611008B1E2A /* dth_new.png */,
+				63DF22181E8BE625008B1E2A /* electrcty.png */,
+				63DF221A1E8BE63E008B1E2A /* data.png */,
+				63DF221C1E8BE656008B1E2A /* gas.png */,
+				63DF221E1E8BE678008B1E2A /* tell.png */,
+				63DF22201E8BE68D008B1E2A /* insurance.png */,
+				63DF22221E8BE698008B1E2A /* water.png */,
+				63207F521E8CE667007FCD14 /* postpaid_img.jpg */,
+				63207F671E8D218B007FCD14 /* rupees.png */,
+				63207F691E8D2199007FCD14 /* send_acc.png */,
+				63207F6B1E8D21AE007FCD14 /* send_bank.png */,
+				63207F6D1E8D21C3007FCD14 /* send_bank1.png */,
+				63207F6F1E8D21CA007FCD14 /* send_user.png */,
+				63D4F6231E8E726D00889B6A /* landline_img.jpg */,
+				63D4F6251E8E727E00889B6A /* land_tel.png */,
+				63D4F6271E8E72F500889B6A /* land_user.png */,
+				63D4F6291E8E7A6300889B6A /* datacard.jpg */,
+				63D4F62B1E8E7A8A00889B6A /* dada1.png */,
+				63D4F62D1E8E7AA300889B6A /* operator.png */,
+				63D4F62F1E8E815400889B6A /* electricity_img1.jpg */,
+				63D4F6311E8E816400889B6A /* electricity01.png */,
+				63D4F6331E8E817800889B6A /* dth01.png */,
+				63BC5F171E8F92FE00568AD9 /* dthimg.jpg */,
+				63BC5F221E8FC4B000568AD9 /* gas_img.jpg */,
+				63BC5F191E8F93EC00568AD9 /* dth1.png */,
+				63BC5F241E8FC71500568AD9 /* insur.png */,
+				63BC5F261E8FC75000568AD9 /* insurance_img.jpg */,
+				63BC5F281E8FC7F700568AD9 /* ins3.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		63F96C541E8A556200C85861 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +503,8 @@
 				63F96C791E8A556200C85861 /* SevenseasMoneyTests */,
 				63F96C841E8A556200C85861 /* SevenseasMoneyUITests */,
 				63F96C5E1E8A556200C85861 /* Products */,
+				7C2B054C97DD387EEBA91153 /* Pods */,
+				41FFD2906BB997A75F75A4FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +521,46 @@
 		63F96C5F1E8A556200C85861 /* SevenseasMoney */ = {
 			isa = PBXGroup;
 			children = (
+				63BC5F1B1E8FBF9900568AD9 /* Font */,
+				63D4F6021E8E43B900889B6A /* SwiftFile */,
+				63207F4E1E8CD2F9007FCD14 /* Common  */,
+				63DF220C1E8BD26A008B1E2A /* Images */,
+				63F96C9B1E8A8C9500C85861 /* CustomComponent */,
+				63207F661E8D18E4007FCD14 /* CellGroup */,
 				63F96C631E8A556200C85861 /* AppDelegate.h */,
 				63F96C641E8A556200C85861 /* AppDelegate.m */,
-				63F96C661E8A556200C85861 /* ViewController.h */,
-				63F96C671E8A556200C85861 /* ViewController.m */,
-				63F96C691E8A556200C85861 /* Main.storyboard */,
+				63F96C961E8A711F00C85861 /* LoginViewController.h */,
+				63F96C971E8A711F00C85861 /* LoginViewController.m */,
+				63F96C931E8A70FE00C85861 /* RegisterViewController.h */,
+				63F96C941E8A70FE00C85861 /* RegisterViewController.m */,
+				630969511E8B7BD5002BD301 /* DashboardViewController.h */,
+				630969521E8B7BD5002BD301 /* DashboardViewController.m */,
+				63DF220D1E8BE25F008B1E2A /* RechargeViewController.h */,
+				63DF220E1E8BE25F008B1E2A /* RechargeViewController.m */,
+				631C55F11E94F39300742656 /* SendMoneyViewController.h */,
+				631C55F21E94F39300742656 /* SendMoneyViewController.m */,
+				634D8EB71E94F5D500ECE3E9 /* MoneyTransferViewController.h */,
+				634D8EB81E94F5D500ECE3E9 /* MoneyTransferViewController.m */,
+				63207F5D1E8D13B4007FCD14 /* TravelViewController.h */,
+				63207F5E1E8D13B4007FCD14 /* TravelViewController.m */,
+				63207F601E8D13D4007FCD14 /* WalletViewController.h */,
+				63207F611E8D13D4007FCD14 /* WalletViewController.m */,
+				63D4F60A1E8E633100889B6A /* OfferViewController.h */,
+				63D4F60B1E8E633100889B6A /* OfferViewController.m */,
+				63D4F60D1E8E633F00889B6A /* HelpViewController.h */,
+				63D4F60E1E8E633F00889B6A /* HelpViewController.m */,
+				632DF2281E938EF50040726E /* SideMenuViewController.h */,
+				632DF2291E938EF50040726E /* SideMenuViewController.m */,
+				63D4F6101E8E6BD800889B6A /* RechargeController */,
+				631C55EB1E94F09800742656 /* SendMoney */,
+				63BC5F131E8F8FDC00568AD9 /* ViewBillController */,
 				63F96C6C1E8A556200C85861 /* Assets.xcassets */,
+				63D4F5FD1E8E2D1D00889B6A /* Main.storyboard */,
 				63F96C6E1E8A556200C85861 /* LaunchScreen.storyboard */,
 				63F96C711E8A556200C85861 /* Info.plist */,
 				63F96C601E8A556200C85861 /* Supporting Files */,
+				63D4F6001E8E429300889B6A /* Swift.swift */,
+				63D4F5FF1E8E429200889B6A /* SevenseasMoney-Bridging-Header.h */,
 			);
 			path = SevenseasMoney;
 			sourceTree = "<group>";
@@ -140,6 +591,46 @@
 			path = SevenseasMoneyUITests;
 			sourceTree = "<group>";
 		};
+		63F96C9B1E8A8C9500C85861 /* CustomComponent */ = {
+			isa = PBXGroup;
+			children = (
+				63F9DBA21E93CDFB00D53F1F /* V2ImageView.h */,
+				63F9DBA31E93CDFB00D53F1F /* V2ImageView.m */,
+				63BC5F101E8F691900568AD9 /* UIFont+V2Font.h */,
+				63BC5F111E8F691900568AD9 /* UIFont+V2Font.m */,
+				63BC5F0A1E8F677100568AD9 /* NSString+Validation.h */,
+				63BC5F0B1E8F677100568AD9 /* NSString+Validation.m */,
+				63BC5F0C1E8F677100568AD9 /* V2ValidationNotifier.h */,
+				63BC5F0D1E8F677100568AD9 /* V2ValidationNotifier.m */,
+				63207F541E8CEA99007FCD14 /* TPKeyboardAvoidingScrollView.h */,
+				63207F551E8CEA99007FCD14 /* TPKeyboardAvoidingScrollView.m */,
+				63207F561E8CEA99007FCD14 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				63207F571E8CEA99007FCD14 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				63207F5A1E8CF476007FCD14 /* UIViewController+V2CustomViewController.h */,
+				63207F5B1E8CF476007FCD14 /* UIViewController+V2CustomViewController.m */,
+				63F96CA51E8A993100C85861 /* UIFont+TKFont.h */,
+				63F96CA61E8A993100C85861 /* UIFont+TKFont.m */,
+				63F96C9C1E8A8D0100C85861 /* UIColor+TKColor.h */,
+				63F96C9D1E8A8D0100C85861 /* UIColor+TKColor.m */,
+				63F96C9F1E8A8D1700C85861 /* TKTextField.h */,
+				63F96CA01E8A8D1700C85861 /* TKTextField.m */,
+			);
+			name = CustomComponent;
+			sourceTree = "<group>";
+		};
+		7C2B054C97DD387EEBA91153 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40B29393A58568DAA56538B9 /* Pods-SevenseasMoney.debug.xcconfig */,
+				750640A82567AE9CF0B7807B /* Pods-SevenseasMoney.release.xcconfig */,
+				2D4C1D18A2797D5225B96735 /* Pods-SevenseasMoneyTests.debug.xcconfig */,
+				329570253ACE4F0B3DA766AC /* Pods-SevenseasMoneyTests.release.xcconfig */,
+				D62CF4DF5C18C799BAD80DBA /* Pods-SevenseasMoneyUITests.debug.xcconfig */,
+				60090205BAF44E22A69B0DD0 /* Pods-SevenseasMoneyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +638,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63F96C8A1E8A556200C85861 /* Build configuration list for PBXNativeTarget "SevenseasMoney" */;
 			buildPhases = (
+				EB9CBF66D9FE11250C9E4546 /* [CP] Check Pods Manifest.lock */,
 				63F96C591E8A556200C85861 /* Sources */,
 				63F96C5A1E8A556200C85861 /* Frameworks */,
 				63F96C5B1E8A556200C85861 /* Resources */,
+				C2666D5C142C15E33A3D522D /* [CP] Embed Pods Frameworks */,
+				1421EFAF96BE0DB11624E0D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +658,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63F96C8D1E8A556200C85861 /* Build configuration list for PBXNativeTarget "SevenseasMoneyTests" */;
 			buildPhases = (
+				435D931124CFA0220D473961 /* [CP] Check Pods Manifest.lock */,
 				63F96C721E8A556200C85861 /* Sources */,
 				63F96C731E8A556200C85861 /* Frameworks */,
 				63F96C741E8A556200C85861 /* Resources */,
+				793C57565583708712424C9B /* [CP] Embed Pods Frameworks */,
+				93EB5F76E38D70B4DC48D27A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +679,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63F96C901E8A556200C85861 /* Build configuration list for PBXNativeTarget "SevenseasMoneyUITests" */;
 			buildPhases = (
+				B15AA6D2C38A495B143DCD57 /* [CP] Check Pods Manifest.lock */,
 				63F96C7D1E8A556200C85861 /* Sources */,
 				63F96C7E1E8A556200C85861 /* Frameworks */,
 				63F96C7F1E8A556200C85861 /* Resources */,
+				3D7264165755FB808DCA21B1 /* [CP] Embed Pods Frameworks */,
+				11A4260E82717A89AADF517D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +708,7 @@
 					63F96C5C1E8A556200C85861 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 8UL927Y5Z6;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					63F96C751E8A556200C85861 = {
@@ -249,9 +750,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63207F681E8D218B007FCD14 /* rupees.png in Resources */,
 				63F96C701E8A556200C85861 /* LaunchScreen.storyboard in Resources */,
 				63F96C6D1E8A556200C85861 /* Assets.xcassets in Resources */,
-				63F96C6B1E8A556200C85861 /* Main.storyboard in Resources */,
+				63F9DB9C1E93A4F500D53F1F /* aboutus.png in Resources */,
+				63F9DB9E1E93A4F500D53F1F /* contactus.png in Resources */,
+				63DF22051E8BA185008B1E2A /* ask_iocn.png in Resources */,
+				63DF22011E8BA147008B1E2A /* travel_iocn.png in Resources */,
+				63DF21FD1E8BA0F8008B1E2A /* recharge_icon.png in Resources */,
+				63D4F5FE1E8E2D1D00889B6A /* Main.storyboard in Resources */,
+				63D4F6261E8E727E00889B6A /* land_tel.png in Resources */,
+				63207F6A1E8D2199007FCD14 /* send_acc.png in Resources */,
+				63DF22131E8BE5E7008B1E2A /* phone_icon.png in Resources */,
+				63F9DBA01E93A4F500D53F1F /* payment.png in Resources */,
+				634D8EE91E950F7200ECE3E9 /* VPASTableViewController.xib in Resources */,
+				63207F6E1E8D21C3007FCD14 /* send_bank1.png in Resources */,
+				634D8EDF1E94F82400ECE3E9 /* BankAccountTableViewCell.xib in Resources */,
+				63BC5F291E8FC7F700568AD9 /* ins3.png in Resources */,
+				63F96C9A1E8A824600C85861 /* offer_iocn.png in Resources */,
+				634D8EE41E950F5F00ECE3E9 /* ContactTableViewController.xib in Resources */,
+				63BC5F1A1E8F93EC00568AD9 /* dth1.png in Resources */,
+				63DF22211E8BE68D008B1E2A /* insurance.png in Resources */,
+				63D4F6301E8E815400889B6A /* electricity_img1.jpg in Resources */,
+				63D4F62A1E8E7A6300889B6A /* datacard.jpg in Resources */,
+				63F9DB9D1E93A4F500D53F1F /* add.png in Resources */,
+				630969561E8B81D7002BD301 /* moneybanner.jpg in Resources */,
+				63DF221D1E8BE656008B1E2A /* gas.png in Resources */,
+				63207F701E8D21CA007FCD14 /* send_user.png in Resources */,
+				630969571E8B81D7002BD301 /* water_img.jpg in Resources */,
+				63F9DBA11E93A4F500D53F1F /* wallet.png in Resources */,
+				634D8ED21E94F7C500ECE3E9 /* ContactTableViewCell.xib in Resources */,
+				63DF21FF1E8BA116008B1E2A /* send_money_iocn.png in Resources */,
+				63207F6C1E8D21AE007FCD14 /* send_bank.png in Resources */,
+				63DF221F1E8BE678008B1E2A /* tell.png in Resources */,
+				63BC5F1F1E8FBFCB00568AD9 /* OpenSans in Resources */,
+				634D8EEE1E950F8700ECE3E9 /* BankAccountTableViewController.xib in Resources */,
+				63DF22171E8BE611008B1E2A /* dth_new.png in Resources */,
+				63DF221B1E8BE63E008B1E2A /* data.png in Resources */,
+				63D4F62C1E8E7A8A00889B6A /* dada1.png in Resources */,
+				63D4F6341E8E817800889B6A /* dth01.png in Resources */,
+				63F9DB9F1E93A4F500D53F1F /* myaccount.png in Resources */,
+				63BC5F271E8FC75000568AD9 /* insurance_img.jpg in Resources */,
+				63BC5F251E8FC71500568AD9 /* insur.png in Resources */,
+				63BC5F211E8FC4A500568AD9 /* gas01.png in Resources */,
+				63DF22151E8BE5FB008B1E2A /* cont.png in Resources */,
+				63D4F62E1E8E7AA300889B6A /* operator.png in Resources */,
+				634D8ED71E94F7D400ECE3E9 /* VPASTableViewCell.xib in Resources */,
+				63207F531E8CE667007FCD14 /* postpaid_img.jpg in Resources */,
+				63DF22031E8BA157008B1E2A /* wallet_iocn.png in Resources */,
+				63D4F6281E8E72F500889B6A /* land_user.png in Resources */,
+				63DF22111E8BE4A0008B1E2A /* postpaidimg.jpg in Resources */,
+				63BC5F181E8F92FE00568AD9 /* dthimg.jpg in Resources */,
+				63DF22191E8BE625008B1E2A /* electrcty.png in Resources */,
+				63D4F6321E8E816400889B6A /* electricity01.png in Resources */,
+				63D4F6241E8E726D00889B6A /* landline_img.jpg in Resources */,
+				63BC5F231E8FC4B100568AD9 /* gas_img.jpg in Resources */,
+				63DF22231E8BE698008B1E2A /* water.png in Resources */,
+				63BC5F1E1E8FBFCB00568AD9 /* Lato in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +826,193 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11A4260E82717A89AADF517D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevenseasMoneyUITests/Pods-SevenseasMoneyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1421EFAF96BE0DB11624E0D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevenseasMoney/Pods-SevenseasMoney-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D7264165755FB808DCA21B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevenseasMoneyUITests/Pods-SevenseasMoneyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		435D931124CFA0220D473961 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		793C57565583708712424C9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevenseasMoneyTests/Pods-SevenseasMoneyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93EB5F76E38D70B4DC48D27A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevenseasMoneyTests/Pods-SevenseasMoneyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B15AA6D2C38A495B143DCD57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2666D5C142C15E33A3D522D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SevenseasMoney/Pods-SevenseasMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB9CBF66D9FE11250C9E4546 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63F96C591E8A556200C85861 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63F96C681E8A556200C85861 /* ViewController.m in Sources */,
+				634D8EDE1E94F82400ECE3E9 /* BankAccountTableViewCell.m in Sources */,
+				63F96CA71E8A993100C85861 /* UIFont+TKFont.m in Sources */,
+				63D4F6191E8E6C7000889B6A /* LandlineViewController.m in Sources */,
+				63D4F60F1E8E633F00889B6A /* HelpViewController.m in Sources */,
+				63D4F6061E8E5A2E00889B6A /* InstagramActivityIndicator.swift in Sources */,
+				63207F591E8CEA99007FCD14 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				63F96C651E8A556200C85861 /* AppDelegate.m in Sources */,
+				634D8EF11E95195F00ECE3E9 /* DetailViewController.m in Sources */,
+				634D8ED61E94F7D400ECE3E9 /* VPASTableViewCell.m in Sources */,
+				63D4F61F1E8E6C9700889B6A /* InsurenceViewController.m in Sources */,
+				63207F511E8CD34C007FCD14 /* KIImagePager.m in Sources */,
+				63F96C9E1E8A8D0100C85861 /* UIColor+TKColor.m in Sources */,
 				63F96C621E8A556200C85861 /* main.m in Sources */,
+				63FC94C81E9254B100AE7789 /* WalletTableViewCell.m in Sources */,
+				63D4F6011E8E429300889B6A /* Swift.swift in Sources */,
+				630969531E8B7BD5002BD301 /* DashboardViewController.m in Sources */,
+				63207F581E8CEA99007FCD14 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				63207F621E8D13D4007FCD14 /* WalletViewController.m in Sources */,
+				63D4F6091E8E60AB00889B6A /* DTHViewController.m in Sources */,
+				634D8EED1E950F8700ECE3E9 /* BankAccountTableViewController.m in Sources */,
+				63BC5F161E8F909A00568AD9 /* BillViewController.m in Sources */,
+				63F96C951E8A70FE00C85861 /* RegisterViewController.m in Sources */,
+				63BC5F0F1E8F677100568AD9 /* V2ValidationNotifier.m in Sources */,
+				634D8EE81E950F7200ECE3E9 /* VPASTableViewController.m in Sources */,
+				634D8EBA1E94F5D500ECE3E9 /* MoneyTransferViewController.m in Sources */,
+				63D4F6161E8E6C5900889B6A /* DataViewController.m in Sources */,
+				632DF22A1E938EF50040726E /* SideMenuViewController.m in Sources */,
+				63F96CA11E8A8D1700C85861 /* TKTextField.m in Sources */,
+				63D4F60C1E8E633100889B6A /* OfferViewController.m in Sources */,
+				6368979E1E94C94C00B9238F /* SendMoneyCollectionViewCell.m in Sources */,
+				634D8EE31E950F5F00ECE3E9 /* ContactTableViewController.m in Sources */,
+				63D4F61C1E8E6C8900889B6A /* GasViewController.m in Sources */,
+				631C55F31E94F39300742656 /* SendMoneyViewController.m in Sources */,
+				63BC5F0E1E8F677100568AD9 /* NSString+Validation.m in Sources */,
+				63F9DB951E93A19400D53F1F /* SideMenuTableViewCell.m in Sources */,
+				63BC5F121E8F691900568AD9 /* UIFont+V2Font.m in Sources */,
+				63D4F6221E8E6CA700889B6A /* WaterViewController.m in Sources */,
+				63D4F6131E8E6C4B00889B6A /* ElectricityViewController.m in Sources */,
+				63F96C981E8A711F00C85861 /* LoginViewController.m in Sources */,
+				63207F5C1E8CF476007FCD14 /* UIViewController+V2CustomViewController.m in Sources */,
+				63DF220F1E8BE25F008B1E2A /* RechargeViewController.m in Sources */,
+				634D8ED11E94F7C500ECE3E9 /* ContactTableViewCell.m in Sources */,
+				63F9DBA41E93CDFB00D53F1F /* V2ImageView.m in Sources */,
+				63207F5F1E8D13B4007FCD14 /* TravelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +1048,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		63F96C691E8A556200C85861 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63F96C6A1E8A556200C85861 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		63F96C6E1E8A556200C85861 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,31 +1151,52 @@
 		};
 		63F96C8B1E8A556200C85861 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B29393A58568DAA56538B9 /* Pods-SevenseasMoney.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8UL927Y5Z6;
 				INFOPLIST_FILE = SevenseasMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.practice.map.SevenseasMoney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SevenseasMoney/SevenseasMoney-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		63F96C8C1E8A556200C85861 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750640A82567AE9CF0B7807B /* Pods-SevenseasMoney.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8UL927Y5Z6;
 				INFOPLIST_FILE = SevenseasMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.practice.map.SevenseasMoney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SevenseasMoney/SevenseasMoney-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		63F96C8E1E8A556200C85861 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4C1D18A2797D5225B96735 /* Pods-SevenseasMoneyTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8UL927Y5Z6;
 				INFOPLIST_FILE = SevenseasMoneyTests/Info.plist;
@@ -462,7 +1209,9 @@
 		};
 		63F96C8F1E8A556200C85861 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329570253ACE4F0B3DA766AC /* Pods-SevenseasMoneyTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8UL927Y5Z6;
 				INFOPLIST_FILE = SevenseasMoneyTests/Info.plist;
@@ -475,7 +1224,9 @@
 		};
 		63F96C911E8A556200C85861 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62CF4DF5C18C799BAD80DBA /* Pods-SevenseasMoneyUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8UL927Y5Z6;
 				INFOPLIST_FILE = SevenseasMoneyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -487,7 +1238,9 @@
 		};
 		63F96C921E8A556200C85861 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60090205BAF44E22A69B0DD0 /* Pods-SevenseasMoneyUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8UL927Y5Z6;
 				INFOPLIST_FILE = SevenseasMoneyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -516,6 +1269,7 @@
 				63F96C8C1E8A556200C85861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63F96C8D1E8A556200C85861 /* Build configuration list for PBXNativeTarget "SevenseasMoneyTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +1278,7 @@
 				63F96C8F1E8A556200C85861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63F96C901E8A556200C85861 /* Build configuration list for PBXNativeTarget "SevenseasMoneyUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +1287,7 @@
 				63F96C921E8A556200C85861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
