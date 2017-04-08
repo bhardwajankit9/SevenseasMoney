@@ -8,7 +8,7 @@
 
 #import "YSLScrollMenuView.h"
 
-static const CGFloat kYSLScrollMenuViewWidth  = 90;
+static const CGFloat kYSLScrollMenuViewWidth  = 120;
 static const CGFloat kYSLScrollMenuViewMargin = 10;
 static const CGFloat kYSLIndicatorHeight = 3;
 
@@ -27,7 +27,7 @@ static const CGFloat kYSLIndicatorHeight = 3;
     self = [super initWithFrame:frame];
     if (self) {
         // default
-        _viewbackgroudColor = [UIColor blackColor];
+        _viewbackgroudColor = [UIColor colorWithRed:37.0/255.0f green:37.0/255.0f blue:37.0/255.0f alpha: 1.0];
         _itemfont = [UIFont systemFontOfSize:16];
         _itemTitleColor = [UIColor whiteColor];
         _itemSelectedTitleColor = [UIColor colorWithRed:0.333333 green:0.333333 blue:0.333333 alpha:1.0];

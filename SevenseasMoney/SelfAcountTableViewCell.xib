@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="accountCell" rowHeight="73" id="KGk-i7-Jjw" customClass="SelfAcountTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="362" height="73"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="362" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account No 21233123123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5FL-Oc-7rH">
+                        <rect key="frame" x="97" y="8" width="209" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="Xr7-xc-AHd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bank Name- HDFC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4X-Cx-qJo">
+                        <rect key="frame" x="97" y="25" width="202" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="CQS-dU-ixg"/>
+                            <constraint firstAttribute="width" constant="202" id="DdZ-DY-ID2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vashi " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZL-vf-9bf">
+                        <rect key="frame" x="97" y="46" width="211" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="B9W-pT-6nX"/>
+                            <constraint firstAttribute="width" constant="211" id="Pw9-TZ-D9O"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HDFClogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GtU-9s-2lN">
+                        <rect key="frame" x="23" y="12" width="50" height="51"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Zna-nI-3a9"/>
+                            <constraint firstAttribute="height" constant="51" id="c9Z-Az-w3a"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="B4X-Cx-qJo" firstAttribute="top" secondItem="5FL-Oc-7rH" secondAttribute="bottom" constant="1" id="CQr-wG-USf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="B4X-Cx-qJo" secondAttribute="trailing" constant="55" id="GCR-e1-UYu"/>
+                    <constraint firstItem="GtU-9s-2lN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="GsA-bb-hko"/>
+                    <constraint firstItem="B4X-Cx-qJo" firstAttribute="leading" secondItem="GtU-9s-2lN" secondAttribute="trailing" constant="24" id="MGp-0G-glF"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="GtU-9s-2lN" secondAttribute="bottom" constant="1.5" id="RZh-e9-XDl"/>
+                    <constraint firstItem="GtU-9s-2lN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="VQs-te-fcI"/>
+                    <constraint firstAttribute="topMargin" secondItem="5FL-Oc-7rH" secondAttribute="top" id="XIi-jb-Y9x"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="bZL-vf-9bf" secondAttribute="trailing" constant="46" id="cW8-kp-9vU"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="5FL-Oc-7rH" secondAttribute="trailing" constant="48" id="jqv-l0-gLd"/>
+                    <constraint firstItem="bZL-vf-9bf" firstAttribute="top" secondItem="B4X-Cx-qJo" secondAttribute="bottom" constant="-4" id="kIa-Gy-hEJ"/>
+                    <constraint firstItem="5FL-Oc-7rH" firstAttribute="leading" secondItem="GtU-9s-2lN" secondAttribute="trailing" constant="24" id="mB6-fc-IdZ"/>
+                    <constraint firstItem="bZL-vf-9bf" firstAttribute="leading" secondItem="GtU-9s-2lN" secondAttribute="trailing" constant="24" id="riG-sh-Ydc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="46" y="66.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="HDFClogo.jpg" width="1258" height="1600"/>
+    </resources>
+</document>

@@ -7,9 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import "SideMenuViewController.h"
 #import <LocalAuthentication/LocalAuthentication.h>
 #import "LoginViewController.h"
+#import "MenuViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -31,8 +32,8 @@
     //[application setStatusBarHidden:YES];
     UIStoryboard *storyboard =
     [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    SideMenuViewController *leftVC = [storyboard
-                                    instantiateViewControllerWithIdentifier:@"SideMenuViewController"];
+    MenuViewController *leftVC = [storyboard
+                                    instantiateViewControllerWithIdentifier:@"menuViewController"];
     UINavigationController *rootVC =
     [storyboard instantiateViewControllerWithIdentifier:@"RootVC"];
     _sideMenu =

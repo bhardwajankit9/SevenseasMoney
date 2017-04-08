@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FAQlist</key>
+	<array>
+		<string>What is UPI Pin?</string>
+		<string>Is the UPI pin is diffrent from my Savenseas Password?</string>
+		<string>How do i set my UPI PIN for my bank account from Savenseas Money</string>
+		<string>How do I set my UPI PIN from my bank directly</string>
+		<string>How do I change my UPI PIN?</string>
+		<string>I have forgotten my UPI PIN help!</string>
+		<string>My UPI PIN which was set through my bank earlier is not working on Seavenseas Money</string>
+		<string>What happen if i enter wrong UPI PIN during a transaction</string>
+	</array>
+	<key>FAQDetail</key>
+	<array>
+		<string>My UPI PIN which was set through my bank earlier is not working on Seavenseas Money</string>
+		<string>Is the UPI pin is diffrent from my Savenseas Password?</string>
+		<string>How do i set my UPI PIN for my bank account from Savenseas Money</string>
+		<string>How do I set my UPI PIN from my bank directly</string>
+		<string>How do I change my UPI PIN?</string>
+		<string>I have forgotten my UPI PIN help!</string>
+		<string>My UPI PIN which was set through my bank earlier is not working on Seavenseas Money</string>
+		<string>What happen if i enter wrong UPI PIN during a transaction</string>
+	</array>
+</dict>
+</plist>

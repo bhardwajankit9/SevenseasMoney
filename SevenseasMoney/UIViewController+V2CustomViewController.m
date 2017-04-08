@@ -52,7 +52,7 @@
     UIBarButtonItem *infoBarButton = [[UIBarButtonItem alloc]initWithCustomView:infoButton];
     [infoButton addTarget:self action:@selector(componentInformation) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = infoBarButton;
-    self.navigationItem.hidesBackButton = true;
+    self.navigationItem.hidesBackButton = false;
     
 }
 
@@ -90,17 +90,16 @@
 -(void)NavigationbarInfo{
     [self.navigationController.navigationBar setTitleTextAttributes:
      @{NSForegroundColorAttributeName:[UIColor whiteColor]}];
-    self.navigationItem.hidesBackButton = true;
     UINavigationBar *bar = [self.navigationController navigationBar];
    // [bar setBackgroundColor:[UIColor blackColor]];
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"LoginImage"]];
-    CGSize imageSize = CGSizeMake(25, 25);
-    CGFloat marginX = (self.navigationController.navigationBar.frame.size.width / 2) - (imageSize.width / 2);
+   // UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"LoginImage"]];
+//    CGSize imageSize = CGSizeMake(25, 25);
+//    CGFloat marginX = (self.navigationController.navigationBar.frame.size.width / 2) - (imageSize.width / 2);
     
-    imageView.frame = CGRectMake(85, 10, imageSize.width, imageSize.height);
-    [self.navigationController.navigationBar addSubview:imageView];
+    //imageView.frame = CGRectMake(85, 10, imageSize.width, imageSize.height);
+   // [self.navigationController.navigationBar addSubview:imageView];
 
-    
+     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     //[self.navigationController popViewControllerAnimated:YES];
     
 }

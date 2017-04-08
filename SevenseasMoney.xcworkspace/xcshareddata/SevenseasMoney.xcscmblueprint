@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1015004D7CD349B2F7491A5A940354274480447E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3210D932071C692BA38CA3F9273EA57176DA7CD4" : 9223372036854775807,
+    "1015004D7CD349B2F7491A5A940354274480447E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E1739613-3CC9-4990-BB95-A8D04AC3353D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3210D932071C692BA38CA3F9273EA57176DA7CD4" : "Project\/Internal-Components-iOS\/",
+    "1015004D7CD349B2F7491A5A940354274480447E" : "SevenseasMoney\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SevenseasMoney",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SevenseasMoney.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bhardwajankit9\/SevenseasMoney.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1015004D7CD349B2F7491A5A940354274480447E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:v2dev\/Internal-Components-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3210D932071C692BA38CA3F9273EA57176DA7CD4"
+    }
+  ]
+}

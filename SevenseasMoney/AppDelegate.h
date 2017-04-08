@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SevenseasMoney-swift.h"
 #import <REFrostedViewController/REFrostedViewController.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>

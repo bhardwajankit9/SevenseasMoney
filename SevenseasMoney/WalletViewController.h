@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <YSLContainerViewController.h>
+
+@class YSLContainerViewController;
 
 @interface WalletViewController : UIViewController
 - (IBAction)paidButtonAction:(id)sender;
@@ -16,5 +19,6 @@
 @property (weak, nonatomic) IBOutlet UIView *paidView;
 @property (weak, nonatomic) IBOutlet UIView *receivedView;
 @property (weak, nonatomic) IBOutlet UIView *addedView;
+@property (strong, nonatomic) YSLContainerViewController *sliderMenu;
 
 @end

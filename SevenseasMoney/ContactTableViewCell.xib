@@ -17,42 +17,57 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="65" id="KGk-i7-Jjw" customClass="ContactTableViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="349" height="65"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContactCell" rowHeight="72" id="KGk-i7-Jjw" customClass="ContactTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="72"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="349" height="64"/>
+                <rect key="frame" x="0.0" y="0.0" width="393" height="72"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJm-Co-eeH">
-                        <rect key="frame" x="81" y="14" width="241" height="36"/>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NrO-vX-BWs">
+                        <rect key="frame" x="64" y="8" width="265" height="27"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="36" id="lav-Nd-Qck"/>
+                            <constraint firstAttribute="height" constant="27" id="gnV-Wd-W9E"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="19"/>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginImage" translatesAutoresizingMaskIntoConstraints="NO" id="P6X-3N-Y5T">
-                        <rect key="frame" x="17" y="12" width="40" height="40"/>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74W-Ao-38Y">
+                        <rect key="frame" x="64" y="35" width="265" height="27"/>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" tag="888" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Contact" translatesAutoresizingMaskIntoConstraints="NO" id="lgT-VF-cap">
+                        <rect key="frame" x="8" y="13" width="45" height="45"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="40" id="1XA-PJ-6lw"/>
+                            <constraint firstAttribute="height" constant="45" id="kHM-Sh-Bc9"/>
                         </constraints>
                     </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailingMargin" secondItem="dJm-Co-eeH" secondAttribute="trailing" constant="19" id="3jM-EF-0Ch"/>
-                    <constraint firstItem="dJm-Co-eeH" firstAttribute="leading" secondItem="P6X-3N-Y5T" secondAttribute="trailing" constant="24" id="6wH-B5-n47"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="dJm-Co-eeH" secondAttribute="bottom" constant="6.5" id="hKp-ex-rAG"/>
-                    <constraint firstItem="P6X-3N-Y5T" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="isi-a3-p9A"/>
-                    <constraint firstItem="P6X-3N-Y5T" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="9" id="u1o-s2-ea7"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="P6X-3N-Y5T" secondAttribute="bottom" constant="4.5" id="xx3-AS-YTi"/>
+                    <constraint firstItem="lgT-VF-cap" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="1pv-aJ-Neg"/>
+                    <constraint firstItem="NrO-vX-BWs" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="8UO-lq-jns"/>
+                    <constraint firstItem="NrO-vX-BWs" firstAttribute="leading" secondItem="74W-Ao-38Y" secondAttribute="leading" id="RC0-Ss-APn"/>
+                    <constraint firstItem="lgT-VF-cap" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Xfq-Pv-y9h"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="lgT-VF-cap" secondAttribute="bottom" constant="6" id="YZ9-kJ-WCu"/>
+                    <constraint firstItem="lgT-VF-cap" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="e2U-yr-FpM"/>
+                    <constraint firstItem="NrO-vX-BWs" firstAttribute="leading" secondItem="lgT-VF-cap" secondAttribute="trailing" constant="11" id="fRf-3a-5j9"/>
+                    <constraint firstItem="NrO-vX-BWs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="gPw-9W-H86"/>
+                    <constraint firstItem="74W-Ao-38Y" firstAttribute="top" secondItem="NrO-vX-BWs" secondAttribute="bottom" id="leY-gF-V4J"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="74W-Ao-38Y" secondAttribute="bottom" constant="1" id="pga-Mn-7Mm"/>
+                    <constraint firstItem="NrO-vX-BWs" firstAttribute="trailing" secondItem="74W-Ao-38Y" secondAttribute="trailing" id="qeb-EM-s6U"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="NrO-vX-BWs" secondAttribute="trailing" constant="56" id="t6c-IF-DxZ"/>
                 </constraints>
             </tableViewCellContentView>
-            <point key="canvasLocation" x="-9" y="26"/>
+            <connections>
+                <outlet property="contactImage" destination="lgT-VF-cap" id="ofS-IG-ilI"/>
+            </connections>
+            <point key="canvasLocation" x="-29.5" y="65"/>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="LoginImage" width="75" height="75"/>
+        <image name="Contact" width="512" height="512"/>
     </resources>
 </document>

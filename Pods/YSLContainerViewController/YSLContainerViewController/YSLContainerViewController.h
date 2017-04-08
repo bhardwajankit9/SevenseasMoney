@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YSLScrollMenuView.h"
 
 @protocol YSLContainerViewControllerDelegate <NSObject>
 
@@ -27,6 +28,11 @@
 @property (nonatomic, strong) UIColor *menuItemSelectedTitleColor;
 @property (nonatomic, strong) UIColor *menuBackGroudColor;
 @property (nonatomic, strong) UIColor *menuIndicatorColor;
+/////
+
+//@property (nonatomic, assign) CGFloat topBarHeight;
+//@property (nonatomic, assign) NSInteger currentIndex;
+//@property (nonatomic, strong) YSLScrollMenuView *menuView;
 
 - (id)initWithControllers:(NSArray *)controllers
              topBarHeight:(CGFloat)topBarHeight

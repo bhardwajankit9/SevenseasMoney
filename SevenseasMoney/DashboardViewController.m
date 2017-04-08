@@ -11,6 +11,7 @@
 #import "RechargeViewController.h"
 #import "UIViewController+V2CustomViewController.h"
 #import "AppDelegate.h"
+
 #define APPDelegate                                                            \
 ((AppDelegate *)[[UIApplication sharedApplication] delegate])
 
@@ -30,6 +31,7 @@
     [super viewDidLoad];
     self.navigationItem.title = @"Sevenseas Money";
     pageImages = [[NSArray alloc] initWithObjects:@"moneybanner.jpg", @"water_img.jpg", nil];
+    
 
 //    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(oneTap:)];
 //    [singleTap setNumberOfTapsRequired:1];
@@ -49,12 +51,18 @@
     // Do any additional setup after loading the view.
 }
 
-- (void) viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
+- (void) viewDidAppear:(BOOL)animatede{
+    [super viewDidAppear:animatede];
     pageViewController.pageControl.currentPageIndicatorTintColor = [UIColor redColor];
     pageViewController.pageControl.pageIndicatorTintColor = [UIColor blueColor];
-    pageViewController.slideshowTimeInterval = 1.0f;
+    pageViewController.slideshowTimeInterval = 5.5f;
     pageViewController.slideshowShouldCallScrollToDelegate = YES;
+    
+}
+
+- (NSArray *) arrayWithImages:(KIImagePager*)pager{
+    
+    return pageImages;
     
 }
 
@@ -65,8 +73,8 @@
     label.text = @"16.00";
     label.layer.cornerRadius = 10.0;
     label.layer.masksToBounds = YES;
+    label.userInteractionEnabled = YES;
     [[self.navigationController navigationBar] addSubview:label];
-
 }
 
 //- (void)oneTap:(UIGestureRecognizer *)gesture {
@@ -115,16 +123,10 @@
 
 #pragma mark - KIImagePager DataSource
 
-- (NSArray *) arrayWithImages:(KIImagePager*)pager{
-    
-    return pageImages;
-
-}
 
 - (UIViewContentMode) contentModeForImage:(NSUInteger)image inPager:(KIImagePager *)pager
 {
-    
-    return UIViewContentModeScaleToFill;
+    return UIViewContentModeScaleAspectFill;
 }
 
 

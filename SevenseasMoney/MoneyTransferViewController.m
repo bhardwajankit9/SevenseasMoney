@@ -8,10 +8,10 @@
 
 #import "MoneyTransferViewController.h"
 #import "YSLContainerViewController.h"
-#import "ContactTableViewController.h"
-#import "VPASTableViewController.h"
-#import "BankAccountTableViewController.h"
 #import "UIViewController+V2CustomViewController.h"
+#import "ContactListViewController.h"
+#import "VPASListViewController.h"
+#import "BankListViewController.h"
 
 @interface MoneyTransferViewController () <YSLContainerViewControllerDelegate>
 
@@ -21,24 +21,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"Send Money";
+    self.navigationController.navigationBar.topItem.title = @"Send Money";
+
+    //self.navigationItem.title = @"Send Money";
     [self NavigationbarInfo];
+   // [self backButtonForNavigationBar];
     [self infoButtonNavigationBar];
-    [self.view layoutIfNeeded];
 
     [self SetuptabelView];
     // Do any additional setup after loading the view from its nib.
 }
 
 -(void)SetuptabelView{
-    ContactTableViewController *contactViewController = [[ContactTableViewController alloc]initWithNibName:@"ContactTableViewController" bundle:nil];
-    contactViewController.title = @"Contact";
+    ContactListViewController *contactViewController = [[ContactListViewController alloc]initWithNibName:@"ContactListViewController" bundle:nil];
+    contactViewController.title = @"CONTACT";
 
-    VPASTableViewController *vpasViewController = [[VPASTableViewController alloc]initWithNibName:@"VPASTableViewController" bundle:nil];
+    VPASListViewController *vpasViewController = [[VPASListViewController alloc]initWithNibName:@"VPASListViewController" bundle:nil];
     vpasViewController.title = @"VPAS";
 
-    BankAccountTableViewController *bankAccountViewController = [[BankAccountTableViewController alloc]initWithNibName:@"BankAccountTableViewController" bundle:nil];
-    bankAccountViewController.title = @"Bank Account";
+    BankListViewController *bankAccountViewController = [[BankListViewController alloc]initWithNibName:@"BankListViewController" bundle:nil];
+    bankAccountViewController.title = @"BANK CONTACT";
 
     
     float statusHeight = [[UIApplication sharedApplication] statusBarFrame].size.height;

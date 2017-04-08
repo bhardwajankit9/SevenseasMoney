@@ -8,8 +8,12 @@
 
 #import "WalletViewController.h"
 #import "UIViewController+V2CustomViewController.h"
-#import "WalletTableViewCell.h"
-@interface WalletViewController () <UITableViewDelegate,UITableViewDataSource>
+#import "YSLContainerViewController.h"
+#import "PaidViewController.h"
+#import "ReceivedViewController.h"
+#import "AddedViewController.h"
+
+@interface WalletViewController () <YSLContainerViewControllerDelegate>
 
 @end
 
@@ -17,89 +21,60 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"Sevenseas Money";
+    self.navigationItem.title = @"Wallet Balance";
     [self NavigationbarInfo];
     [self backButtonForNavigationBar];
     [self infoButtonNavigationBar];
-    
-    self.walletTableView.backgroundView = [[UIView alloc] init];
-    self.walletTableView.backgroundView.backgroundColor = kCellBackgroundColor;
-    self.paidView.backgroundColor = [UIColor colorWithRed:0.0/255.0f green:175.0/255.0f blue:255.0/255.0f alpha: 1.0];
-    self.receivedView.hidden = YES;
-    self.addedView.hidden = YES;
-    self.walletTableView.separatorStyle = UITableViewCellSelectionStyleNone;
-//    UIImageView *tempImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"BackgroundImage"]];
-//      [walletTableView s]
+    [self SetuptabelView];
 
-  //  self.walletTableView.backgroundView = tempImageView;
-    // Do any additional setup after loading the view.
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return 10;
+//- (void) setUp {
+//    
+//    self.sliderMenu = [[YSLScrollMenuView alloc]initWithFrame:CGRectMake(0, _topBarHeight, self.view.frame.size.width, kYSLScrollMenuViewHeight)];
+//    _sliderMenu.backgroundColor = [UIColor colorWithRed:37.0/255.0f green:37.0/255.0f blue:37.0/255.0f alpha: 1.0];
+//    _menuView.delegate = self;
+//    _menuView.viewbackgroudColor = self.menuBackGroudColor;
+//    _menuView.itemfont = self.menuItemFont;
+//    _menuView.itemTitleColor = self.menuItemTitleColor;
+//    _menuView.itemIndicatorColor = self.menuIndicatorColor;
+//    _menuView.scrollView.scrollsToTop = NO;
+//    [_menuView setItemTitleArray:self.titles];
+//    [self.view addSubview:_menuView];
+//    [_menuView setShadowView];
+//    
+//    [self scrollMenuViewSelectedIndex:0];
+//}
+
+-(void)SetuptabelView{
+    PaidViewController *paidVC = [[PaidViewController alloc]initWithNibName:@"PaidViewController" bundle:nil];
+    paidVC.title = @"PAID";
+    
+    ReceivedViewController *receivedVC = [[ReceivedViewController alloc]initWithNibName:@"ReceivedViewController" bundle:nil];
+    receivedVC.title = @"RECEIVED";
+    
+    AddedViewController *addedVC = [[AddedViewController alloc]initWithNibName:@"AddedViewController" bundle:nil];
+    addedVC.title = @"ADDED";
+    
+    
+    float statusHeight = [[UIApplication sharedApplication] statusBarFrame].size.height;
+    float navigationHeight = self.navigationController.navigationBar.frame.size.height;
+    YSLContainerViewController *containerVC = [[YSLContainerViewController alloc]initWithControllers:@[paidVC,receivedVC,addedVC]
+                                                                                        topBarHeight:statusHeight + navigationHeight
+                                                                                parentViewController:self];
+    containerVC.delegate = self;
+    containerVC.menuItemFont = [UIFont fontWithName:@"Futura-Medium" size:16];
+    
+    [self.view addSubview:containerVC.view];
+    
+    
 }
 
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *simpleTableIdentifier = @"WalletTableViewCell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
-   
-
-   // cell.backgroundColor = [UIColor clearColor];
-    cell.backgroundColor =[UIColor colorWithRed:0.0/255.0f green:175.0/255.0f blue:255.0/255.0f alpha: 1.0];
-    self.walletTableView.backgroundColor = [UIColor colorWithRed:0.0/255.0f green:175.0/255.0f blue:255.0/255.0f alpha: 1.0];
-
-//    if (cell == nil) {
-//        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
-//        cell.selectionStyle = UITableViewCellSelectionStyleNone;
-//        
-//    }
-    
-    //cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
-    return cell;
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
-- (IBAction)paidButtonAction:(id)sender {
-    self.paidView.hidden = NO;
-    self.paidView.backgroundColor = [UIColor colorWithRed:0.0/255.0f green:175.0/255.0f blue:255.0/255.0f alpha: 1.0];
-    self.receivedView.hidden = YES;
-    self.addedView.hidden = YES;
-    self.walletTableView.reloadData;
-
-}
-
-- (IBAction)receivedButtonAction:(id)sender {
-    self.receivedView.hidden = NO;
-    self.receivedView.backgroundColor = [UIColor colorWithRed:0.0/255.0f green:175.0/255.0f blue:255.0/255.0f alpha: 1.0];
-    self.addedView.hidden = YES;
-    self.paidView.hidden = YES;
-
-}
-
-- (IBAction)addedButtonAction:(id)sender {
-    self.addedView.hidden = NO;
-
-    self.addedView.backgroundColor = [UIColor colorWithRed:0.0/255.0f green:175.0/255.0f blue:255.0/255.0f alpha: 1.0];
-    self.receivedView.hidden = YES;
-    self.paidView.hidden = YES;
-
-}
 @end
